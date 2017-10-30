@@ -1,0 +1,33 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "An API created to extend its functionality to access todo information saved from fb-todo-bot.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chalk": "^2.3.0",
+    "passport-strategy": "^1.0.0",
+    "path": "^0.12.7",
+    "sinon": "^4.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teekenl/todo-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teekenl/todo-api/issues"
+  },
+  "homepage": "https://github.com/teekenl/todo-api#readme"
+}
